@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <style>
+        .card-img-top {
+            width: 100%;
+height: 30vh;
+object-fit: contain;
+}
+
+        .cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b1c3ed1e97.js" crossorigin="anonymous"></script>  
+</head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="icon_lyft.png" alt="Bootstrap" width="30" height="24"></a>
+          <div class="input-group mb-2">
+            <input type="text" class="form-control" placeholder="Where are you going ?" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2 inputGroup-sizing-sm"><i class="fa fa-arrow-circle-right" style="font-size:24px"></i></span>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Driver</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Rider</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#">Business</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Signup</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container text-center padding mb-3">
+        <div class="row">
+          <div class="col">
+            <img src="fimg.webp" >
+          </div>
+          <div class="col align-self-center">
+            <h1>Let's ride</h1>
+            <br/>
+            <a class="btn btn-primary rounded-pill btn-lg" href="#" role="button">Apply to drive</a> 
+            <a class="btn btn-light border-light rounded-pill btn-lg" href="#" role="button">Signup to ride</a>
+          </div>
+        </div>
+    </div>
+    
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+       
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="cards-wrapper">
+                    <div class="card">
+                      <img src="https://images.ctfassets.net/q8mvene1wzq4/54zBNZxHpcSOwmg4YXPlA6/d4efb0f4c50c3627ee2718bce66da8cd/watson_scooter_icons_2x.png?w=&q=60&fm=webp" class="card-img-top" alt="Bikes & Scooters">
+                      <div class="card-body">
+                        <h5 class="card-title">Bikes & Scooters</h5>
+                        <p class="card-text">Get your vegetables, groceries and reach the nearest places or your school with eco friendly rides</p>
+                        <a href="#" class="btn btn-primary">Book this</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="https://images.ctfassets.net/q8mvene1wzq4/5Tkm1FxMqDlPfTNhwWHb6h/270715b4dd74200bca01ed84ce18f3bd/shared_icon_2x.png?w=&q=60&fm=webp" class="card-img-top" alt="Shared">
+                      <div class="card-body">
+                        <h5 class="card-title">Shared</h5>
+                        <p class="card-text">Budget-Friendly rides by sharing your travel space with other riders giving you pocket friendly rides</p>
+                        <a href="#" class="btn btn-primary">Book this</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="https://images.ctfassets.net/q8mvene1wzq4/2DS1wcFwCBPt7BDZDnC2Wo/846cc676fe7004f74dc4794a198c9de5/lyft_icon_2x.png?w=&q=60&fm=webp" class="card-img-top" alt="Lyft">
+                      <div class="card-body">
+                        <h5 class="card-title">Lyft</h5>
+                        <p class="card-text">like to travel alone,need some privacy and space, want to do work while you travel go for this invidual rides</p>
+                        <a href="#" class="btn btn-primary">Book this</a>
+                      </div>
+                    </div>
+                  </div> 
+            </div>
+            <div class="carousel-item">
+                <div class="cards-wrapper">
+                    <div class="card">
+                      <img src="https://images.ctfassets.net/q8mvene1wzq4/2IFTlPmvQ6X04CVqGMqsYq/affc79708ce1358642a8e2f97c85116c/priority_pickup.svg?w=&q=60&fm=" class="card-img-top" alt="Bikes & Scooters">
+                      <div class="card-body">
+                        <h5 class="card-title">Priority Pickup</h5>
+                        <p class="card-text">Upgrade to Priority Pickup for a shorter wait when you need to get there fast.</p>
+                        <a href="#" class="btn btn-primary">Book this</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="https://images.ctfassets.net/q8mvene1wzq4/169mzIbWdMqPGfJQjKQxUg/c50ad12324332387d5504a1f955d7eed/preferred_mode.svg?w=&q=60&fm=" class="card-img-top" alt="Shared">
+                      <div class="card-body">
+                        <h5 class="card-title">Preferred Mode</h5>
+                        <p class="card-text">Elevate your ride with more legroom, newer cars, also to customize your preferences for temperature or a quiet ride.</p>
+                        <a href="#" class="btn btn-primary">Book this</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                    
+                      <img src="https://images.ctfassets.net/q8mvene1wzq4/6Ckb5jZUisc0IOQmLvHppe/9f674f4a9744809f97615a42c6240107/rental_icon_2x.png?w=&q=60&fm=webp" class="card-img-top" alt="Lyft" >
+                      <div class="card-body">
+                        <h5 class="card-title">Rentals</h5>
+                        <p class="card-text">Drive yourself! Getting away for the weekend just got a whole lot easier. Reserve a rental car in the app or online. </p>
+                        <a href="#" class="btn btn-primary">Book this</a>
+                      </div>
+                    </div>
+                  </div> 
+            </div>
+            <div class="carousel-item">
+                <div class="cards-wrapper">
+                    
+                    <div class="card">
+                      <img src="https://images.ctfassets.net/q8mvene1wzq4/2HtCyRlopxqoxhbHCuEiqn/3e837bec9c7a45e2e70fea5b175973fe/xtra_seats_icon_2x.png?w=&q=60&fm=webp" class="card-img-top" alt="Bikes & Scooters">
+                      <div class="card-body">
+                        <h5 class="card-title">Lyft XL</h5>
+                        <p class="card-text">Stretch your legs in a roomy standard or black SUV. You’ll have plenty of trunk space and more than four seats, so you can bring the whole family along.</p>
+                        <a href="#" class="btn btn-primary">Book this</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                        
+                      <img src="https://images.ctfassets.net/q8mvene1wzq4/2AtXOCguvjUEhNmgrWlWlF/cd201b0f49037eec6ca6c0be2c0e309a/lux_icon_2x.png?w=&q=60&fm=webp" class="card-img-top" alt="Shared">
+                     <div class="card-body">
+                        <h5 class="card-title">Lyft Lux</h5>
+                        <p class="card-text">Experience a private luxury ride with top-rated drivers, high-quality service, and extra legroom. Perfect for business, or the pleasure of making a grand entrance.</p>
+                        <a href="#" class="btn btn-primary">Book this</a>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="https://images.ctfassets.net/q8mvene1wzq4/6uhGufB2Lt55HbAx6M4TbY/679d658220366795d4e3ac967796ec20/transit_icon_2x.png?w=&q=60&fm=webp" class="card-img-top" alt="Lyft">
+                      <div class="card-body">
+                        <h5 class="card-title">Transit</h5>
+                        <p class="card-text">Check bus, train, and ferry schedules right in the Lyft app, and plan the best route to suit your budget and schedule.</p>
+                        <a href="#" class="btn btn-primary">Book this</a>
+                      </div>
+                    </div>
+                   
+                  </div> 
+                
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <i class='fas fa-arrow-alt-circle-left' style='font-size:36px;color: black;'></i>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <i class='fas fa-arrow-alt-circle-right' style='font-size:36px;color: black;'></i>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>     
+      </body>
+</html>
